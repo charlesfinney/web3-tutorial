@@ -1,5 +1,5 @@
 # web3-tutorial
-web3j is a highly modular, reactive, type safe Java and Android library for working with Smart Contracts and integrating with clients (nodes) on the Ethereum network:
+web3j a Java and Android library for integrating Smart Contracts into Ethereum network clients/nodes.
 
 ![Web 3 ](https://github.com/charlesfinney/web3-tutorial/blob/master/web3j_network.png)  
    
