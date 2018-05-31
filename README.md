@@ -1,8 +1,8 @@
 # web3-tutorial
 web3j a Java and Android library for integrating Smart Contracts into Ethereum network clients/nodes.  
   
-  allowing you to access the Ethereum blockchain, without having to write your own integration code everytime your contracts want to comunicate with the Ethereum platform.
-
+Allowing you to access the Ethereum blockchain, without having to write your own integration code everytime your contracts want to comunicate with the Ethereum platform.
+[Java and Blockchain overview](https://youtu.be/ea3miXs_P6Y)
 ![Web 3 ](https://github.com/charlesfinney/web3-tutorial/blob/master/web3j_network.png)  
    
 the way you talk to an ethereum node or client is with a library called web3 over a JSON-RPC or Remote Procedure Call  similar to an API or Application programing interface but instead of a connection to one server the RPC conectes with all nodes  
