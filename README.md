@@ -21,3 +21,19 @@ sign up wih [infura.io](https://infura.io/signup)
 download node.js  
   
   ![node.js](https://github.com/charlesfinney/web3-tutorial/blob/master/nodejs.png)
+  
+## step 3 
+Next you need to install  web3.js into your project, using the following methods:
+  
+[web3.js Getting Started](https://web3js.readthedocs.io/en/1.0/getting-started.html)
+  
+npm: `npm install web3`  
+  
+After that you need to create a web3 instance and set a provider. Ethereum supported Browsers like Mist or MetaMask will have a `ethereumProvider` or `web3.currentProvider` available. For web3.js, check `Web3.givenProvider`. If this property is `null` you should connect to a remote/local node.
+  
+> // in node.js use: var Web3 = require('web3');
+> 
+> var web3 = new Web3(Web3.givenProvider || "ws://localhost:8546");
+That’s it! now you can use the `web3` object.  
+  
+  
