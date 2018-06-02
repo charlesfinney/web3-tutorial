@@ -23,11 +23,17 @@ download node.js
   ![node.js](https://github.com/charlesfinney/web3-tutorial/blob/master/nodejs.png)
   
 ## step 3 
+setup directory `mkdir web3-tutorial` and set up corresponding git repository 
+## step 4 
 Next you need to install  web3.js into your project, using the following methods:
   
 [web3.js Getting Started](https://web3js.readthedocs.io/en/1.0/getting-started.html)
   
 npm: `npm install web3`  
+  
+If npm install process finds vulneralbilities   
+  
+  run `npm audit fix` to fix them,
   
 After that you need to create a web3 instance and set a provider. Ethereum supported Browsers like Mist or MetaMask will have a `ethereumProvider` or `web3.currentProvider` available. For web3.js, check `Web3.givenProvider`. If this property is `null` you should connect to a remote/local node.
   
